@@ -1,0 +1,13 @@
+numpy
+pandas
+streamlit
+pandas_profiling
+treamlit_pandas_profiling
+matplotlib
+altair
+plotly
+seaborns
+sklearn
+sweetviz
+codecs
+streamlit_plotly_events
