@@ -28,7 +28,7 @@ if choice == "EDA APP":
     This is an **EDA App** created in Streamlit using the **Pandas-Profiling** library and **HAB LABS** expertise.
     ''')
 
-    st.image("/Users/fwworner/Desktop/EDA_WEB_APP/4445.jpg")
+    st.image("4445(1).jpg")
 
     st.write("📊 We enable your business to combine multiple sources of data into one reliable, user-friendly location.")
     st.write("📊 Try it out on your own dataset by uploading it ⬅︎ or have a look at our example of a **Mall Dataset**")
@@ -79,7 +79,7 @@ if choice == "EDA APP":
             # Example data
             @st.cache(allow_output_mutation=True)
             def load_data():
-                a = pd.read_csv("/Users/fwworner/Desktop/EDA_WEB_APP/Mall_Customers.csv")
+                a = pd.read_csv("Mall_Customers.csv")
                 return a
             df = load_data()
             pr = ProfileReport(df, explorative=True)
@@ -316,7 +316,7 @@ elif choice == "Custom Dataframe Selection":
         st.markdown('''
     # **Customer Dataframe Selection**
     ''')
-        st.image("/Users/fwworner/Desktop/EDA_WEB_APP/19201.jpg")
+        st.image("19201(1).jpg")
         st.write("📊 Below we give you the ability to quickly and effeciently filter large datasets")
         st.write("📊 Additionally, we provide you with a quick but succinct overview of this fitered dataset in the form of a **Sweetviz** report")
      
@@ -324,7 +324,7 @@ elif choice == "Custom Dataframe Selection":
         @st.cache(allow_output_mutation=True)
 
         def load_data():
-            a = pd.read_csv("/Users/fwworner/Desktop/EDA_WEB_APP/Mall_Customers.csv")
+            a = pd.read_csv("Mall_Customers.csv")
             return a
         df = load_data()      
            
@@ -405,7 +405,7 @@ elif choice == "Customer Segmentation":
     **Customer Segmentation** is the process of division of a customer base into several groups.
     ''')
     
-    st.image("/Users/fwworner/Desktop/EDA_WEB_APP/too-broad-customer-segmentation.jpeg")
+    st.image("too-broad-customer-segmentation.jpeg")
     st.write("📊  These groups share similarities that are relevant to marketing such as gender, age, annual income and spending habits.")
     st.write("📊  Once your company understands the characteristics of these 'clusters' of clients you can divert your ad budget away from those who are unlikely to purchase your product or service towards your most valuable customers")
     st.write("📊  This customer segmentation will be completed on our **Mall Dataset**")
@@ -413,7 +413,7 @@ elif choice == "Customer Segmentation":
     if st.button('Press me for Customer Segmentation'):
         @st.cache(allow_output_mutation=True)
         def load_data():
-            a = pd.read_csv("/Users/fwworner/Desktop/EDA_WEB_APP/Mall_Customers.csv")
+            a = pd.read_csv("Mall_Customers.csv")
             return a
         df = load_data() 
         
@@ -693,7 +693,7 @@ elif choice == "Customer Segmentation":
 
         st.write("---")
 
-        st.image("/Users/fwworner/Desktop/EDA_WEB_APP/Heatmap.png")
+        st.image("Heatmap.png")
 
         st.markdown('''
     # **FREE CONSULTATION**
