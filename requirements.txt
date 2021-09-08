@@ -1,13 +1,11 @@
 numpy
 pandas
 streamlit
-pandas_profiling
-treamlit_pandas_profiling
 matplotlib
-altair
-plotly
-seaborns
+seaborn
 sklearn
 sweetviz
 codecs
 streamlit_plotly_events
+plotly.graph_objs
+streamlit.components.v1
